@@ -1,5 +1,5 @@
 /*
-¸ğµÎÀÇ ÄÚµå 16-2°­ 2¹ø ¹®Á¦
+ëª¨ë‘ì˜ ì½”ë“œ 16-2ê°• 2ë²ˆ ë¬¸ì œ
 */
 
 #include <stdio.h>
@@ -9,8 +9,8 @@
 #define MAX_INT_DIGIT 20
 
 struct BigNum {
-	int i_digit[MAX_DIGIT];	//0¹øÀÌ 1ÀÇÀÚ¸®, 1¹øÀÌ 10ÀÇÀÚ¸®...
-	int d_digit[MAX_DIGIT];	//0¹øÀÌ 0.1, 1¹øÀÌ 0.01...
+	int i_digit[MAX_DIGIT];	//0ë²ˆì´ 1ì˜ìë¦¬, 1ë²ˆì´ 10ì˜ìë¦¬...
+	int d_digit[MAX_DIGIT];	//0ë²ˆì´ 0.1, 1ë²ˆì´ 0.01...
 	int i_total_digit;
 	int d_total_digit;
 	char sign;
@@ -18,7 +18,7 @@ struct BigNum {
 };
 
 struct BigInt {
-	int i_digit[MAX_INT_DIGIT];	//0¹øÀÌ 1ÀÇÀÚ¸®, 1¹øÀÌ 10ÀÇÀÚ¸®...
+	int i_digit[MAX_INT_DIGIT];	//0ë²ˆì´ 1ì˜ìë¦¬, 1ë²ˆì´ 10ì˜ìë¦¬...
 	int i_total_digit;
 	char sign;
 	char inf;
