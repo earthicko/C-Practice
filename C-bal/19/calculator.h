@@ -1,0 +1,1 @@
+float calculate(int* operands, char* operators, int operand_count);
