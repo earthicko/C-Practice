@@ -1,1 +1,0 @@
-/usr/bin/gcc-9 -fdiagnostics-color=always -o ./1 ./1.c ./calculator.c -lm
