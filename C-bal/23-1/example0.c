@@ -2,9 +2,9 @@
 
 int main(int argc, char** argv) {
     FILE* fp;
-    fp = fopen("a.txt", "w");
+    fp = fopen("./C-bal/23-1/a.txt", "w");
 
-    if (fp==NULL){
+    if (fp == NULL) {  // Write Error -> Return Value 0
         printf("Write Error\n");
         return -1;
     }
